@@ -47,13 +47,14 @@ nav i {
 section {
     position: relative;
     background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
-    height: 100vh;
+    height: 80vh;
+}
+
+.bottom {
+    vertical-align: bottom;
 }
 
 .bottom h2 {
-    position: absolute;
-    left: 30%;
-    top: 10%;
     font-family: Marcellus, sans-serif;
     font-weight: 100;
     font-size: 45px;
@@ -61,16 +62,11 @@ section {
     text-transform: uppercase;
 }
 
-.title {
-    position: absolute;
-    left: 40%;
-    top: 19%;
+.imager {
+    text-align: center;
 }
 
 .bottom h6 {
-    position: absolute;
-    left: 30%;
-    top: 25%;
     font-family: Open Sans;
     font-size: 18px;
     line-height: 1.55em;
@@ -80,14 +76,25 @@ section {
 
 }
 
+#Herald {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.photos {
+    vertical-align: top;
+}
+
 .image {
-    float: left;
     width: 30%;
 }
 
 .image img {
-    width: 95%;
-    margin-left: 50px;
+    width: 100%;
+    vertical-align: bottom;
     margin-bottom: 30px;
 }
 
@@ -96,6 +103,19 @@ p,
 span {
     margin-top: 10px;
     margin-left: 60px;
+}
+
+#Photos {
+    height: auto;
+    padding: -1rem 0 4rem 0;
+}
+
+#Photos .photos {
+    overflow: auto;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .image a {
