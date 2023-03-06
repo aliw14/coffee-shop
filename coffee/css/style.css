@@ -5,10 +5,13 @@
 }
 
 header {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: black;
     padding: 30px 4rem;
+    z-index: 1000;
 }
 
 .logo img {
